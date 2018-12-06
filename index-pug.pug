@@ -1,0 +1,19 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset='utf-8')
+    style
+      include styles/css/styles.css
+    title ejemplo frontend con pug
+
+  body
+
+    include components/general/main-header/main-header.pug    
+
+    #main-container
+      include components/general/sidebar-1/sidebar-1.pug    
+      main#main-content
+        include components/home/home.pug    
+      include components/general/sidebar-2/sidebar-2.pug    
+    
+    include components/general/main-footer/main-footer.pug    
