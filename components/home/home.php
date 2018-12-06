@@ -1,6 +1,10 @@
-<h1>
-    Main Content
-</h1>
+<section id="home">
+
+    <h1>
+        Main Content
+    </h1>
 
 
-<?php include_once('components/home/home-text/home-text.php'); ?>
+    <?php include_once('components/home/home-text/home-text.php'); ?>
+
+</section>

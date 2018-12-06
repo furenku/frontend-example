@@ -62,6 +62,10 @@ body > *,
   background-color: green;
 }
 
+#home {
+  background-color: #eee;
+}
+
 #home-text {
   padding: 4rem;
   font-size: 24px;
